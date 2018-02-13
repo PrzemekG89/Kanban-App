@@ -51,7 +51,7 @@ export function deleteNote(req, res) {
   })
 }
 
-export function editNote(req, res) {
+export function editNoteContent(req, res) {
   const note = req.body;
   if (!note.id || !note.task) {
     res.status(403).end();

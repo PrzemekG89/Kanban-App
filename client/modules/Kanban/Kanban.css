@@ -1,1 +1,10 @@
 /* Kanban styles */
+.KanbanContainer {
+  min-height: 70vh;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}

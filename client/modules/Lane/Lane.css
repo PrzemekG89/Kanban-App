@@ -1,1 +1,26 @@
 /* Lane styles */
+.Lane {
+  padding: 10px;
+  background-color: #cdcdcd;
+  width: 290px;
+  min-height: 300px;
+  border-radius: 5px;
+  margin: 10px;
+  color: #BE0028;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #94C930;
+}
+
+button:hover {
+  cursor: pointer;
+}
